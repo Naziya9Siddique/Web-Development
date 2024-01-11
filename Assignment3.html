@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment3</title>
+</head>
+<body>
+    <!-- Q1 -->
+    <table border="2">
+        <th rowspan="6">Info</th>
+        <th rowspan="2">Name</th>
+        <th colspan="2">Address</th>
+        <tr><td>City</td>
+            <td>House</td>
+        </tr>
+        <tr>
+            <td>A</td>
+            <td>Delhi</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <td>B</td>
+            <td>Mumbai</td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <td>C</td>
+            <td>Kolkata</td>
+            <td>3</td>
+        </tr>
+        <tr><td>D</td>
+            <td>Pune</td>
+            <td>4</td>
+        </tr>
+    </table>
+<br><br>
+<hr>
+    <!--  Q2 -->
+    <form action="\server">
+        Name :<input type="text" name="name" id="name" placeholder="enter your name"><br>
+        <legend>Sex : <input type="radio" name="gender" id="male">Male
+        <input type="radio" name="gender" id="female">Female</legend>
+        <br>
+        <label for="country">Country : 
+            <select name="country" id="country">
+                <option value="">Select your country</option>
+                <option value="usa">USA</option>
+                <option value="argentina">Argentina</option>
+                <option value="alska">Alaska</option>
+                <option value="Bangladesh">Bangladesh</option>
+                <option value="china">China</option>
+                <option value="denmark">Denmark</option>
+                <option value="England">England</option>
+                <option value="france">France</option>
+                <option value="germany">Germany</option>
+                <option value="india">India</option>
+            </select>
+        </label>
+        <br>
+        Message : 
+        <textarea name="message" id="message" cols="30" rows="4"></textarea>
+        <br>
+        <label for="subs">Subscribe
+            <input type="checkbox" name="subs" id="subs">
+        </label>
+        <br>
+        <button type="submit">Submit</button>
+
+    </form>
+    <!-- Q3 --> 
+    <br><br><br>
+<hr>
+    <form action="\server">
+        <h1>Feedback Form</h1>
+        Name : <input type="text" name="name" id="name"> <br>
+        E-mail : <input type="email" name="email" id="email" placeholder="enter your email"><br>
+        Message : <br>
+        <textarea name="message" id="message" cols="30" rows="3"></textarea><br>
+        <label for="rate">Rate us on <br>
+        <input type="radio" name="rate" id="five">5 <br>
+        <input type="radio" name="rate" id="four">4 <br>
+        <input type="radio" name="rate" id="three">3 <br>
+        <input type="radio" name="rate" id="two">2 <br>
+        <input type="radio" name="rate" id="one">1 <br>
+    </label>
+    <button type="submit">Send your message !</button>
+    </form>
+</body>
+</html>
