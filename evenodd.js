@@ -1,8 +1,8 @@
-//Write a program that determines whether a given number is positive or negative.
-let num=-23;
-if(num>0){
-    console.log("Positive Number");
+//Write a program that checks if a number is even or odd.
+let num=-80;
+if(num%2===0){
+    console.log("Even Number");
 }
 else{
-    console.log("Negative Number");
+    console.log("Odd Number")
 }
